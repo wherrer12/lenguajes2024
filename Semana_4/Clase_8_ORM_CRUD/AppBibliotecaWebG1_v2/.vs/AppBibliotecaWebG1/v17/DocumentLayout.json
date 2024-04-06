@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Create.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Create.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:43:07.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Delete.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:33:13.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Controllers\\LibrosController.cs",
+              "ViewState": "AQIAAIUAAAAAAAA0r8QRwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T01:15:48.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Edit.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:06:52.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
