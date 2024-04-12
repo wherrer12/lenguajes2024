@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppPrueba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bd499c85c15c2a6bcaaf58e0956dbb1ac8223aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppPrueba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppPrueba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

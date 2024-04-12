@@ -5691,19 +5691,19 @@
   },
   "packageFolders": {
     "C:\\Users\\wherr\\.nuget\\packages\\": {},
-    "D:\\Software_Windows\\Visual Studio 2022\\Shared\\NuGetPackages": {}
+    "D:\\Software_Windows\\MVS\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\AppBilbliotecaWeb.csproj",
+      "projectUniqueName": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\AppBilbliotecaWeb.csproj",
       "projectName": "AppBilbliotecaWeb",
-      "projectPath": "D:\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\AppBilbliotecaWeb.csproj",
+      "projectPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\AppBilbliotecaWeb.csproj",
       "packagesPath": "C:\\Users\\wherr\\.nuget\\packages\\",
-      "outputPath": "D:\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\obj\\",
+      "outputPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_2\\Sesion_3_Lists_Crud\\AppBilbliotecaWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Software_Windows\\Visual Studio 2022\\Shared\\NuGetPackages"
+        "D:\\Software_Windows\\MVS\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\wherr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5763,7 +5763,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
