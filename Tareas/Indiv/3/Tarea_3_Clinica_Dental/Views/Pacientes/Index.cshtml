@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Tarea_3_Clinica_Dental.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Agenda de la clinica dental</h1>
+<br />
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Nueva cita</a>
+</p>
+<table class="table">
+    <thead>
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Procedimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var modalID = "C" + item.idPaciente;
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Procedimiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+
+                </td>
+
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.idPaciente }, new { @class = "btn btn-info" }) ||
+                    <button type="button" class="btn btn-secondary text-white bi bi-info-circle" data-bs-toggle="modal" data-bs-target=#@modalID>
+                        Detalles
+                    </button>  ||
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.idPaciente }, new { @class = "btn btn-warning" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--Modal pago -->
+@foreach (var item in Model)
+{
+    var modalID = "C" + item.idPaciente;
+    <div class="modal fade" id=@modalID tabindex="-1" aria-labelledby="M1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel"> Datos de pago del paciente @item.Nombre </h5>
+                </div>
+                <div class="modal-body">
+                    @* Datos del costo*@
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                Precio
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Precio)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Impuesto
+                            </div>
+                            <div class="col">
+
+                                @Html.DisplayFor(modelItem => item.Impuesto)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Total
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Total)
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                Adelanto
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Adelanto)
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}@*Cierre foreach*@<!--Modal de los detalles del costo para el paciente-->

@@ -1,22 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\",
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_4\\clase_8_orm_crud\\appbibliotecawebg1_v2\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +58,130 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Index.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Index.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T18:47:43.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Details.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Details.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Details.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T17:50:39.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Models\\Libro.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Models\\Libro.cs",
+              "RelativeToolTip": "Models\\Libro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:31:00.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T20:27:50.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T20:09:54.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DbContextBiblioteca.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Models\\DbContextBiblioteca.cs",
+              "RelativeDocumentMoniker": "Models\\DbContextBiblioteca.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Models\\DbContextBiblioteca.cs",
+              "RelativeToolTip": "Models\\DbContextBiblioteca.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T19:34:48.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Libros\\Create.cshtml",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
               "RelativeToolTip": "Views\\Libros\\Create.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-06T01:43:07.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Libros\\Delete.cshtml",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Delete.cshtml",
               "RelativeToolTip": "Views\\Libros\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAOAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-06T01:33:13.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "LibrosController.cs",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
               "RelativeToolTip": "Controllers\\LibrosController.cs",
-              "ViewState": "AQIAAIUAAAAAAAA0r8QRwJEAAAAAAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAIAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T01:15:48.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Libros\\Edit.cshtml",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_4\\Clase_8_ORM_CRUD\\AppBibliotecaWebG1_v2\\Views\\Libros\\Edit.cshtml",
               "RelativeToolTip": "Views\\Libros\\Edit.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-06T01:06:52.082Z",
               "EditorCaption": ""
