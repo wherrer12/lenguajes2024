@@ -230,9 +230,6 @@ namespace AppBibliotecaWebG1.Controllers
             return verificado;// se retorna el valor para la variable control
         }
 
-
-
-
         /// <summary>
         /// Metodo encargado de mostrar el front end para crear una cuenta a un usuario
         /// </summary>
@@ -282,7 +279,7 @@ namespace AppBibliotecaWebG1.Controllers
                 }
                 catch (Exception ex)//Ojo la variable ex almacena la informacion del error
                 {
-                    TempData["Mensaje"] = "Error al crear la cuenta..<br>" +
+                    TempData["Mensaje"] = "Error al crear la cuenta.." +
                         "Verifique el siguiente mensaje de error: " + ex.Message;
 
                     return View(); //Se ubica al usuario dentro del formulario de crear cuenta

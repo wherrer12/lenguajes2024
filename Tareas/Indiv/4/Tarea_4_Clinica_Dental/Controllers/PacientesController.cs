@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using NuGet.Protocol;
 using Tarea_3_Clinica_Dental.Models;
 
-namespace Tarea_3_Clinica_Dental.Controllers
+namespace Tarea_4_Clinica_Dental.Controllers
 {
     public class PacientesController : Controller
     {
@@ -49,7 +49,8 @@ namespace Tarea_3_Clinica_Dental.Controllers
 
                 //
                 _context.Pacientes.Add(paciente);//Agrega el paciente al contexto
-                await _context.SaveChangesAsync();//Agerga datos a la base de datos
+                await _context.SaveChangesAsync();//Agrega datos a la base de datos
+                EnviarEmail(paciente);//Envia correo
                 return RedirectToAction("Index");
 
             }
@@ -90,16 +91,6 @@ namespace Tarea_3_Clinica_Dental.Controllers
 
         }
 
-        // -------------------------- DETALLES ------------------------------------
-
-        /*[HttpGet]
-        public async Task<IActionResult> Details(int id)
-        {
-            var temp = await _context.Pacientes.FirstOrDefaultAsync(r => r.idPaciente == id);
-
-            return View(temp);
-        }*/
-
         // -------------------------- EDITAR ------------------------------------
 
         [HttpGet]
@@ -133,6 +124,27 @@ namespace Tarea_3_Clinica_Dental.Controllers
             }
         }
 
+        // -------------------------- ENVIAR CORREO ------------------------------------
+        //Agregar metodo para enviar correo
+        public bool EnviarEmail(Paciente paciente)
+        {
+            try
+            {
+                bool enviar = true;
+                Email email = new Email();
+                email.Enviar(paciente);
+                enviar = true;
+                return enviar;
+
+            }
+            catch (Exception ex)
+            {
+               return false;
+
+            }
+         
+        }
+        
     }//Fin clase
 
 }//Fin namespace

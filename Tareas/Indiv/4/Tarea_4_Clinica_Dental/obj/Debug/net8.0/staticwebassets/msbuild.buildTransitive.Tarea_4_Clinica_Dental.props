@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Tarea_4_Clinica_Dental.props" />
+</Project>

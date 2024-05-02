@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_6\\clase_12_login\\appbibliotecawebg1_v2\\views\\usuarios\\crearcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\usuarios\\crearcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:44:46.789Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -63,20 +42,20 @@
               "RelativeToolTip": "Models\\DbContextBiblioteca.cs",
               "ViewState": "AQIAAAgAAACAkh/3GTcZwBgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T02:14:18.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T02:14:18.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LibrosController.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
               "RelativeToolTip": "Controllers\\LibrosController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T01:19:38.848Z"
+              "WhenOpened": "2024-04-20T01:19:38.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,20 +67,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T01:11:01.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CrearCuenta.cshtml",
-              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\CrearCuenta.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\CrearCuenta.cshtml",
-              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\CrearCuenta.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\CrearCuenta.cshtml",
-              "ViewState": "AQIAAB4AAABAFYnmEeAtwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T01:04:41.329Z"
+              "WhenOpened": "2024-04-20T01:11:01.107Z"
             },
             {
               "$type": "Document",
@@ -111,7 +77,7 @@
               "RelativeDocumentMoniker": "Models\\Email.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Models\\Email.cs",
               "RelativeToolTip": "Models\\Email.cs",
-              "ViewState": "AQIAAD8AAAAAUErmo1H1v1UAAAAAAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T02:15:51.369Z",
               "EditorCaption": ""
@@ -124,7 +90,7 @@
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_12_LOGIN\\AppBibliotecaWebG1_v2\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAABGAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAkwE4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T01:08:00.197Z",
               "EditorCaption": ""

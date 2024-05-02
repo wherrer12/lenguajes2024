@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using Tarea_3_Clinica_Dental.Models;
+
 using System.ComponentModel.DataAnnotations.Schema;
 
 using Microsoft.AspNetCore.Mvc;
@@ -29,13 +29,6 @@ namespace Tarea_3_Clinica_Dental.Models
         [Display(Name = "Correo")] // [DisplayName("Correo")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-
-        //[Required(ErrorMessage = "Seleccione la fecha de la cita")]
-        //[Display(Name = "Fecha cita")]
-        //[DataType(DataType.Date)]
-        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:ddd, d/MM/yyyy, hh.mm tt}")]//
-
-        // [IsUnique = true]
         
         [DataType(DataType.DateTime)]
         [DisplayFormat(ApplyFormatInEditMode = true)]

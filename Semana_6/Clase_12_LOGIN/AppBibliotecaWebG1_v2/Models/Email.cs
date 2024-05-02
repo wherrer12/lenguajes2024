@@ -2,6 +2,7 @@
 using System.Net.Mime;
 using System.Net;
 using System.Text;
+using System.Net.Http;
 
 namespace AppBibliotecaWebG1.Models
 {
@@ -22,10 +23,12 @@ namespace AppBibliotecaWebG1.Models
                 email.To.Add(new MailAddress(usuario.Email));
 
                 //Se copia el administrador de la cuenta
-                email.Bcc.Add(new MailAddress("Lenguajes2023G2@Outlook.com"));
+                //email.Bcc.Add(new MailAddress("Lenguajes2023G2@Outlook.com"));
+                email.Bcc.Add(new MailAddress("serverlenguajes2024@​yahoo.com"));
 
                 //Se indica el emisor
-                email.From = new MailAddress("Lenguajes2023G2@Outlook.com");
+                //email.From = new MailAddress("Lenguajes2023G2@Outlook.com");
+                email.From = new MailAddress("serverlenguajes2024@​yahoo.com");
 
                 //Se construye el html para el cuerpo del correo
                 string html = "Bienvenidos a biblioteca web CR, gracias por formar parte de nuestra plataforma";
@@ -52,17 +55,23 @@ namespace AppBibliotecaWebG1.Models
                 SmtpClient smtp = new SmtpClient();
 
                 //Se indica el nombre del servidor smtp a sincronizar la cuenta
-                smtp.Host = "smtp-mail.outlook.com";
+                //smtp.Host = "smtp-mail.outlook.com";
+                smtp.Host = "smtp.mail.yahoo.com";
 
                 //Se indica el puerto de comunicacion
                 smtp.Port = 587;
+                //smtp.Port = 465;
 
                 //Se indica que se usara el protocolo de seguridad tipo SSL
                 smtp.EnableSsl = true;
 
                 //Se indican las credenciales de la cuenta de correo por default
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("Lenguajes2023G2@Outlook.com", "Ucr2023*");
+
+                smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+                //smtp.Credentials = new NetworkCredential("Lenguajes2023G2@Outlook.com", "Ucr2023*");
+                smtp.Credentials = new NetworkCredential("serverlenguajes2024@​yahoo.com", "errptill1.");
 
                 //Se envia el correo
                 smtp.Send(email);

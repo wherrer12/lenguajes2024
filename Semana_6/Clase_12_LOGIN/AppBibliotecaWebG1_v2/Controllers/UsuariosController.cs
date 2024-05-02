@@ -76,7 +76,7 @@ namespace AppBibliotecaWebG1.Controllers
                 }
                 catch (Exception ex)//Ojo la variable ex almacena la informacion del error
                 {
-                    TempData["Mensaje"] = "Error al crear la cuenta..<br>" +
+                    TempData["Mensaje"] = "Error al crear la cuenta.." +
                         "Verifique el siguiente mensaje de error: " + ex.Message;
 
                     return View(); //Se ubica al usuario dentro del formulario de crear cuenta
