@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_9\\sesion_17_carousel\\appbibliotecawebg1_v2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_9\\sesion_17_carousel\\appbibliotecawebg1_v2\\views\\gallery\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\gallery\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_9\\sesion_17_carousel\\appbibliotecawebg1_v2\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_9\\sesion_17_carousel\\appbibliotecawebg1_v2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_9\\sesion_17_carousel\\appbibliotecawebg1_v2\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Models\\Libro.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Libro.cs",
+              "RelativeToolTip": "Models\\Libro.cs",
+              "ViewState": "AQIAACQAAAAAGlPcN1cswCoAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T00:24:44.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Email.cs",
+              "RelativeDocumentMoniker": "Models\\Email.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Email.cs",
+              "RelativeToolTip": "Models\\Email.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wGAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T05:58:40.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:34:06.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Views\\Gallery\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gallery\\Gallery.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Views\\Gallery\\Gallery.cshtml",
+              "RelativeToolTip": "Views\\Gallery\\Gallery.cshtml",
+              "ViewState": "AQIAAEAAAAAAAJmFtTejvzoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T02:30:02.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GalleryController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_9\\Sesion_17_CAROUSEL\\AppBibliotecaWebG1_v2\\Controllers\\GalleryController.cs",
+              "RelativeToolTip": "Controllers\\GalleryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:22:37.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
