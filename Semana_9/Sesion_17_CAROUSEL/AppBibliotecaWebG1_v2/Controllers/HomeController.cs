@@ -18,7 +18,6 @@ namespace AppBibliotecaWebG1.Controllers
         //Variable para manejar las respuestas para la API
         private HttpClient clientTipoCambio = null;
 
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;

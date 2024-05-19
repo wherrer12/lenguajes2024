@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\dbcontextbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\models\\seguridadrestablecer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\seguridadrestablecer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\views\\usuarios\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\usuarios\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,6 +35,18 @@
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\models\\seguridadrestablecer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:models\\seguridadrestablecer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\views\\usuarios\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\usuarios\\restablecer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_7\\sesion_13_autenticacion\\appbibliotecawebg1_v2\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8E32EE74-2B2A-4CAB-B444-D856D9B50BA7}|AppBibliotecaWebG1.csproj|solutionrelative:views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -42,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "SeguridadRestablecer.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Models\\SeguridadRestablecer.cs",
               "RelativeDocumentMoniker": "Models\\SeguridadRestablecer.cs",
@@ -59,20 +75,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContextBiblioteca.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Models\\DbContextBiblioteca.cs",
+              "RelativeDocumentMoniker": "Models\\DbContextBiblioteca.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Models\\DbContextBiblioteca.cs",
+              "RelativeToolTip": "Models\\DbContextBiblioteca.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:58:17.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Libros\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Libros\\Index.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Libros\\Index.cshtml",
+              "RelativeToolTip": "Views\\Libros\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T04:48:54.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Controllers\\LibrosController.cs",
+              "ViewState": "AQIAAAsAAAAANlTvJncOwB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:28:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T05:32:17.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Email.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Models\\Email.cs",
               "RelativeDocumentMoniker": "Models\\Email.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Models\\Email.cs",
               "RelativeToolTip": "Models\\Email.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAQAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA3wB8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T15:38:28.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Libros\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Libros\\Create.cshtml",
@@ -84,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Login.cshtml",
@@ -92,35 +160,38 @@
               "RelativeToolTip": "Views\\Usuarios\\Login.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T02:14:41.827Z"
+              "WhenOpened": "2024-04-24T02:14:41.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CrearCuenta.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\CrearCuenta.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\CrearCuenta.cshtml",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\CrearCuenta.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\CrearCuenta.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAACsAAAAxAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T02:14:28.575Z"
+              "WhenOpened": "2024-04-24T02:14:28.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAIwDMAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:52:05.192Z"
+              "WhenOpened": "2024-04-24T01:52:05.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Restablecer.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Views\\Usuarios\\Restablecer.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Restablecer.cshtml",
@@ -132,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_7\\Sesion_13_Autenticacion\\AppBibliotecaWebG1_v2\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAALUAAAAAAAAAAAAewL8AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAL8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T01:08:00.197Z",
               "EditorCaption": ""

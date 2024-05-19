@@ -25,7 +25,5 @@ namespace AppBibliotecaWebG1.Models
 
         public char Estado { get; set; }
 
-
-
     }
 }

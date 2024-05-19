@@ -88,14 +88,16 @@ namespace AppBibliotecaWebG1.Models
                 //email.To.Add(new MailAddress("Lenguajes2023G2@outlook.com"));
                 //email.Bcc.Add(new MailAddress("serverlenguajes2024@​yahoo.com"));
                 //email.To.Add(new MailAddress("servidormailucr2024@gmail.com"));
-                email.To.Add(new MailAddress("william.herrera@wilherrera.com"));
+                //email.To.Add(new MailAddress("william.herrera@wilherrera.com"));
+                email.To.Add(new MailAddress("if4101server@outlook.com"));
                 email.To.Add(new MailAddress(usuario.Email));
 
                 //Emisor del correo
                 //email.From = new MailAddress("Lenguajes2023G2@outlook.com");
                 //email.From = new MailAddress("serverlenguajes2024@​yahoo.com");
                 //email.From = new MailAddress("servidormailucr2024@gmail.com");
-                email.From = new MailAddress("william.herrera@wilherrera.com");
+                //email.From = new MailAddress("william.herrera@wilherrera.com");
+                email.From = new MailAddress("if4101server@outlook.com");
 
                 //se construye la vista HTML para el body  del email
                 string html = "Bienvenidos a biblioteca web CR gracias por formar parte de nuestra plataforma";
@@ -123,10 +125,10 @@ namespace AppBibliotecaWebG1.Models
                 SmtpClient smtp = new SmtpClient();
 
                 //servidor de correo a implementar
-                //smtp.Host = "smtp-mail.outlook.com";
+                smtp.Host = "smtp-mail.outlook.com";
                 //smtp.Host = "smtp.mail.yahoo.com";
                 //smtp.Host = "smtp.gmail.com";
-                smtp.Host = "mail.wilherrera.com";
+                //smtp.Host = "mail.wilherrera.com";
 
                 //puerto de comunicación 
                 smtp.Port = 587;
@@ -141,14 +143,14 @@ namespace AppBibliotecaWebG1.Models
                 //smtp.Credentials = new NetworkCredential("Lenguajes2023G2@outlook.com", "Ucr2023*");
                 //smtp.Credentials = new NetworkCredential("serverlenguajes2024@​yahoo.com", "errptill1.");
                 //smtp.Credentials = new NetworkCredential("servidormailucr2024@gmail.com", "Querty.1234");
-                smtp.Credentials = new NetworkCredential("william.herrera@wilherrera.com", "querty*1234.");
+                //smtp.Credentials = new NetworkCredential("william.herrera@wilherrera.com", "querty*1234.");
+                smtp.Credentials = new NetworkCredential("if4101server@outlook.com", "ctekttwpjkpqahql");
 
                 //Método para enviar el email
                 smtp.Send(email);
 
                 email.Dispose();
                 smtp.Dispose();
-
 
             }
             catch (Exception ex)

@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wherr\\Desktop\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\models\\dbcontextlab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:models\\dbcontextlab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|c:\\users\\wherr\\desktop\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CE294-1978-4EC7-901E-EC4E17EC8D4C}|Lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Views\\Pacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Views\\Pacientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T21:19:07.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Views\\Pacientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Index.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T20:34:01.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "Controllers\\PacientesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:22:35.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:15:19.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T19:45:57.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContextLab.cs",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Models\\DbContextLab.cs",
+              "RelativeDocumentMoniker": "Models\\DbContextLab.cs",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Models\\DbContextLab.cs",
+              "RelativeToolTip": "Models\\DbContextLab.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:16:23.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\wherr\\Desktop\\Lab1\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\wherr\\Desktop\\Lab1\\Models\\Paciente.cs",
+              "RelativeToolTip": "Models\\Paciente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:11:00.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppBibliotecaWebG1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65bbf1996ded539de4a8520416b2f15f17f95a3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a69dbaf2905beb115ae457a5fbe6e98af6876e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppBibliotecaWebG1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppBibliotecaWebG1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

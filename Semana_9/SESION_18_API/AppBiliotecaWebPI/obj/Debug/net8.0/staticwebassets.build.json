@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cQ0edEJvxnrNmo02XBwxD2JvNeprBJjtqTksXQK6sPA=",
+  "Source": "AppBiliotecaWebPI",
+  "BasePath": "_content/AppBiliotecaWebPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

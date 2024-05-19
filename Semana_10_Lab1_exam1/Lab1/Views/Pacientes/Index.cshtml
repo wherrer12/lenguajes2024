@@ -1,0 +1,119 @@
+﻿@model IEnumerable<Lab1.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Procedimiento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var modalID = "C" + item.Id;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Procedimiento)
+                </td>
+
+                <td>
+                    <button type="button" class="btn btn-secondary text-white bi bi-info-circle" data-bs-toggle="modal" data-bs-target=#@modalID>
+                        Detalles
+                    </button>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<!--Modal pago -->
+@foreach (var item in Model)
+{
+    var modalID = "C" + item.Id;
+    <div class="modal fade" id=@modalID tabindex="-1" aria-labelledby="M1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel"> Datos de pago del paciente @item.Nombre </h5>
+                </div>
+                <div class="modal-body">
+                    @* Datos del costo*@
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                Precio
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Precio)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Impuesto
+                            </div>
+                            <div class="col">
+
+                                @Html.DisplayFor(modelItem => item.Impuesto)
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Total
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Total)
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                Adelanto
+                            </div>
+                            <div class="col">
+                                @Html.DisplayFor(modelItem => item.Adelanto)
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}@*Cierre foreach*@<!--Modal de los detalles del costo para el paciente-->
