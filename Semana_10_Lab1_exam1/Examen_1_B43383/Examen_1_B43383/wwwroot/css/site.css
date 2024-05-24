@@ -21,22 +21,22 @@ body {
   margin-bottom: 60px;
 }
 
-#FormulariosLogin{
-    border: 1px, solid #dedede;
+#FormularioLogin {
+    border: 1px solid #70cbee;
     border-radius: 1em;
     box-shadow: 5px 5px 5px rgba(25,0,0,25);
     padding: 1em;
 }
 
 .Formularios {
-    border: 1px, solid #dedede;
+    border: 1px solid #70cbee;
     border-radius: 1em;
     box-shadow: 5px 5px 5px rgba(25,0,0,25);
     padding: 1em;
 
     margin: auto;
     width: auto;
-    text-align:left;
-    color:#393939;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #393939;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

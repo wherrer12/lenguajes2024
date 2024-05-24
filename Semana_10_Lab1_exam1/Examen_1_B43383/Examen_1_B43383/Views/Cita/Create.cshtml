@@ -13,7 +13,6 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
             <div class="form-group">
                 <label asp-for="Placa" class="control-label"></label>
                 <input asp-for="Placa" class="form-control" />
@@ -35,14 +34,15 @@
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NombreRevision" class="control-label"></label>
-                <input asp-for="NombreRevision" class="form-control" />
-                <span asp-validation-for="NombreRevision" class="text-danger"></span>
+                <label asp-for="TipoRevision" class="control-label"></label>
+
+                <select asp-for="TipoRevision" class="form-control">
+                    <option selected="selected" value="Basica">Basica</option>
+                    <option value="Estandar">Estandar</option>
+                    <option value="Full">Full</option>
+                </select>
+
+                <span asp-validation-for="TipoRevision" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FechaHoraRevision" class="control-label"></label>
@@ -51,33 +51,28 @@
             </div>
             <div class="form-group">
                 <label asp-for="Estado" class="control-label"></label>
-                <input asp-for="Estado" class="form-control" />
-                <span asp-validation-for="Estado" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Observacion" class="control-label"></label>
-                <input asp-for="Observacion" class="form-control" />
-                <span asp-validation-for="Observacion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Mantenimiento" class="control-label"></label>
-                <input asp-for="Mantenimiento" class="form-control" />
-                <span asp-validation-for="Mantenimiento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Usuario" class="control-label"></label>
-                <input asp-for="Usuario" class="form-control" />
-                <span asp-validation-for="Usuario" class="text-danger"></span>
-            </div>
 
+                <select asp-for="Estado" class="form-control">
+                    <option selected="selected" value="S">Sin atender</option>
+                    <option value="A">Atendido</option>
+                </select>
+
+                <span asp-validation-for="Estado" class="text-danger"></span>
+
+            </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary mt-3" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary mt-3">Regresar</a>
 </div>
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

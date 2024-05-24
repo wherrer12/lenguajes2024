@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppWebBibliotecaConsumoG1.props" />
+</Project>

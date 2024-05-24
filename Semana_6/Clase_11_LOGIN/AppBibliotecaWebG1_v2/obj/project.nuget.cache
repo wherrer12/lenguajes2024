@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8t/JE+w3IbqdVnwA8Vgqsd3HRV5buDS9bgKAC/SCM0pL2EJc+ApHCiMCsATKrC4tBm8a112jq/C5XGo9RVFDpg==",
+  "dgSpecHash": "570zLonUOTitdn1NAinbUAS5htGZGGY6OsVx/u+p7UponvLg/oexQf9ZlspQ0Z2D0qg2FWfliJ2Ku8USpRe5hQ==",
   "success": true,
-  "projectFilePath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_11_CLOUD\\AppBibliotecaWebG1_v2\\AppBibliotecaWebG1.csproj",
+  "projectFilePath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_6\\Clase_11_LOGIN\\AppBibliotecaWebG1_v2\\AppBibliotecaWebG1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wherr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\wherr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

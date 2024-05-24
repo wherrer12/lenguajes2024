@@ -1,0 +1,49 @@
+﻿@model Examen_1_B43383.Models.Cita
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>Revision del administrador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<!-- Se esconden las propiedades para que no sean tomadas en cuenta-->
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Placa" />
+            <input type="hidden" asp-for="Cedula" />
+            <input type="hidden" asp-for="NombreCompleto" />
+            <input type="hidden" asp-for="Email" />
+            <input type="hidden" asp-for="TipoRevision" />
+            <input type="hidden" asp-for="FechaHoraRevision" />
+            <input type="hidden" asp-for="Estado" />
+
+            <div class="form-group">
+                <label asp-for="Observacion" class="control-label"></label>
+                <input asp-for="Observacion" class="form-control" />
+                <span asp-validation-for="Observacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento" class="control-label"></label>
+                <input asp-for="Mantenimiento" class="form-control" />
+                <span asp-validation-for="Mantenimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary mt-3" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Cita" class="btn btn-secondary mt-3">Regresar</a>
+</div>
+

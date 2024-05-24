@@ -7838,19 +7838,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {}
+    "C:\\Users\\wherr\\.nuget\\packages\\": {},
+    "D:\\Software_Windows\\MVS\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Examen_1_B43383.csproj",
+      "projectUniqueName": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Examen_1_B43383.csproj",
       "projectName": "Examen_1_B43383",
-      "projectPath": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Examen_1_B43383.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\obj\\",
+      "projectPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Examen_1_B43383.csproj",
+      "packagesPath": "C:\\Users\\wherr\\.nuget\\packages\\",
+      "outputPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Software_Windows\\MVS\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wherr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7858,6 +7863,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7915,7 +7921,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

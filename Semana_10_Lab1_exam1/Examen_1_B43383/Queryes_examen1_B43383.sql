@@ -1,19 +1,25 @@
+-- Creacion de DB
 Create database examen_I
 
-
+-- Ir a DB creada
 use [examen_I]
 go
 
-create table users(
-	Nombre varchar(50) not null,
-	Correo varchar(50) not null,
-	Clave varchar(25) not null,
-	Rol varchar(15) not null
-);
+-- Borrado de tabla por error
+drop table [Usuarios]
 
-insert into users (Nombre,Correo,Clave,Rol) values ('Jorge Cruz Cruz','jcruz@gmail.com',41963,'Admin');
-insert into users (Nombre,Correo,Clave,Rol) values ('Jinnet Vega Marin','jvega@gmail.com',74934,'Admin');
+-- sintaxis para crear los usuarios administradores
+create table [Usuarios](
+	Email varchar(50) not null primary key,
+	NombreCompleto varchar(50) not null,
+	Password varchar(25) not null)
+go
 
-drop table users;
+-- Se inserta el usuario administrador
+insert into Usuarios (Email,NombreCompleto,Password) values ('jcruz@gmail.com','Jorge Cruz Cruz',41963);
+insert into Usuarios (Email,NombreCompleto,Password) values ('jvega@gmail.com','Jinnet Vega Marin',74934);
+go
 
-select * from users;
+-- Se consultan los datos para los usuarios
+select * from Usuarios
+go

@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Examen_1_B43383</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,16 +20,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Login">Iniciar Sesion</a>
-                        </li>
-
+                        
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Index">Citas revision vehicular</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Index">Listado de citas</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Create">Crear cita</a>
                             </li>
                         }
 
@@ -37,15 +40,18 @@
                     <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Index">Citas revision vehicular</a>
+                            <li>
+                                <a class="nav-link text-dark" asp-controller="" asp-action="">Bienvenido @User.Identity.Name!</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-dark" asp-controller="Usuarios" asp-action="Logout">Cerrar sesion</a>
                             </li>
 
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cita" asp-action="Login">Iniciar Sesion</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Login">Iniciar Sesion</a>
                             </li>
                         }
 

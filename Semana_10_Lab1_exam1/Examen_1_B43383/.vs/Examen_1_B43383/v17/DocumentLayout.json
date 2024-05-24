@@ -1,53 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\",
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\models\\dbcontextcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\dbcontextcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Downloads\\Program.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\views\\cita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\cita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\views\\cita\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\cita\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Downloads\\Controlador.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Downloads\\Modelo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Downloads\\view.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\views\\cita\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\cita\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\views\\cita\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\views\\cita\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\cita\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\models\\dbcontextcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\dbcontextcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\migrations\\20240524192654_newtablecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\migrations\\20240524192654_newtablecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|c:\\users\\aula\\desktop\\examen_1_b43383\\examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -58,176 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Create.cshtml",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Create.cshtml",
-              "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Create.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T02:28:57.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Login.cshtml",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Login.cshtml",
-              "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T02:04:03.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Index.cshtml",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Index.cshtml",
-              "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T02:01:57.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.txt",
-              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\Program.txt",
-              "RelativeDocumentMoniker": "..\\..\\Downloads\\Program.txt",
-              "ToolTip": "C:\\Users\\Aula\\Downloads\\Program.txt",
-              "RelativeToolTip": "..\\..\\Downloads\\Program.txt",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-18T00:28:20.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbContextCita.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\DbContextCita.cs",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\DbContextCita.cs",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\DbContextCita.cs",
-              "RelativeToolTip": "Examen_1_B43383\\Models\\DbContextCita.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T00:24:40.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Examen_1_B43383\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwDAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T00:17:13.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CitaController.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\CitaController.cs",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Controllers\\CitaController.cs",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\CitaController.cs",
-              "RelativeToolTip": "Examen_1_B43383\\Controllers\\CitaController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAADgvzQAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:59:41.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Email.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\Email.cs",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Email.cs",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\Email.cs",
-              "RelativeToolTip": "Examen_1_B43383\\Models\\Email.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:40:22.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\Cita.cs",
-              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Cita.cs",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\Models\\Cita.cs",
-              "RelativeToolTip": "Examen_1_B43383\\Models\\Cita.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAIwCEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:30:11.606Z",
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Examen_1_B43383\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABAAAAAAB+4Y9GQbwCgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T20:50:53.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Controlador.txt",
-              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\Controlador.txt",
-              "RelativeDocumentMoniker": "..\\..\\Downloads\\Controlador.txt",
-              "ToolTip": "C:\\Users\\Aula\\Downloads\\Controlador.txt",
-              "RelativeToolTip": "..\\..\\Downloads\\Controlador.txt",
-              "ViewState": "AQIAAPMAAAAAAAAAAADgvwoBAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-17T23:38:57.972Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Create.cshtml",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Create.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Create.cshtml",
+              "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T19:51:15.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Modelo.txt",
-              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\Modelo.txt",
-              "RelativeDocumentMoniker": "..\\..\\Downloads\\Modelo.txt",
-              "ToolTip": "C:\\Users\\Aula\\Downloads\\Modelo.txt",
-              "RelativeToolTip": "..\\..\\Downloads\\Modelo.txt",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAABsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-17T23:33:36.621Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "DbContextCita.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\DbContextCita.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\DbContextCita.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\DbContextCita.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Models\\DbContextCita.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T19:21:08.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "view.txt",
-              "DocumentMoniker": "C:\\Users\\Aula\\Downloads\\view.txt",
-              "RelativeDocumentMoniker": "..\\..\\Downloads\\view.txt",
-              "ToolTip": "C:\\Users\\Aula\\Downloads\\view.txt",
-              "RelativeToolTip": "..\\..\\Downloads\\view.txt",
-              "ViewState": "AQIAALoAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-18T02:04:15.614Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:17:32.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
               "RelativeDocumentMoniker": "Examen_1_B43383\\appsettings.json",
-              "ToolTip": "C:\\Users\\Aula\\Desktop\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
               "RelativeToolTip": "Examen_1_B43383\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T23:24:17.362Z",
+              "WhenOpened": "2024-05-24T16:14:26.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Usuario.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Usuario.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:13:53.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Controllers\\CitaController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Controllers\\CitaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:16:07.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Cita.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Cita.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Models\\Cita.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:55:31.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Email.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Email.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Email.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Models\\Email.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswB8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:05:24.412Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T20:57:55.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Update.cshtml",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Update.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Update.cshtml",
+              "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:14:43.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240524192654_newTableCita.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
+              "RelativeToolTip": "Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T19:48:49.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Examen_1_B43383\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:31:50.752Z"
             }
           ]
         }

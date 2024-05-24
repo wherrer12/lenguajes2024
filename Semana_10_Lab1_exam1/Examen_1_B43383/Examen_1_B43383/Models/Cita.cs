@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Examen_1_B43383.Models
 {
@@ -7,54 +9,58 @@ namespace Examen_1_B43383.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ingrese su placa")]
         public string Placa { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ingrese su cedula")]
         public string Cedula { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ingrese su nombre")]
         [Display(Name = "Nombre")]
         public string NombreCompleto { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ingrese su correo")]
         [Display(Name = "Correo")]
         public string Email { get; set; }
 
-        [Required]
-        [Display(Name = "Clave")]
-        public string Password { get; set; }
+        [Required(ErrorMessage = "Seleccione la revision")]
+        [Display(Name = "Tipo de revision")]
+        public string TipoRevision { get; set; }
 
-        [Required]
-        [Display(Name = "Revision")]
-        public string NombreRevision { get; set;}
-
-        [Required]
+        [Required(ErrorMessage = "Ingrese la fecha")]
         [Display(Name = "Fecha")]
         public DateTime FechaHoraRevision { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Ingrese el estado")]
         public char Estado { get; set; }
 
         public string Observacion { get; set; }
 
         public string Mantenimiento { get; set; }
 
-        public string Usuario { get; set; }
-
         public double Precio { get; set; }
 
-        public double Impuesto { get
+        [HiddenInput]
+        public double Impuesto
+        {
+            get
             {
                 return 0.13;
             }
-                
+
         }
 
-        public double Total { get
-            { 
-                return Precio * Impuesto;
+        [Display(Name = "Precio con IVA")]
+        [HiddenInput]
+        public double Total
+        {
+            get
+            {
+                return Precio + (Precio * Impuesto);
             }
         }
+
+        //public Diagnostico Diagnostico { get; set; }
+
     }
 }

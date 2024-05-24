@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.Build.Framework;
 
 namespace Examen_1_B43383.Controllers
 {
@@ -11,65 +12,27 @@ namespace Examen_1_B43383.Controllers
     {
         private readonly DbContextCita _context = null;
 
-        public CitaController(DbContextCita context){
+        public CitaController(DbContextCita context)
+        {
 
             _context = context;
         }
 
         public async Task<IActionResult> Index()
-        {  
-            var listado = await _context.citas.ToListAsync();
-
-            return View(listado); 
-        }
-
-
-        [HttpGet]
-        public IActionResult Login()
         {
-            return View();
+            var listado = await _context.Citas.ToListAsync();
+
+            return View(listado);
         }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login([Bind] Cita cita)
-        {
-            var temp = ValidarUsuario(cita);
-
-            if (temp != null)
-            {
-                bool restablecer = false;
-
-                if (restablecer)
-                {
-                    return RedirectToAction("Restablecer", "Usuarios", new { Email = cita.Email });
-                }
-                else
-                {
-                    var userClaims = new List<Claim>() { new Claim(ClaimTypes.Name, cita.Email) };
-                    var granIdentity = new ClaimsIdentity(userClaims, "User Identity");
-                    var userPrincipal = new ClaimsPrincipal(new[] { granIdentity });
-                    await HttpContext.SignInAsync(userPrincipal);
-                    return RedirectToAction("Index", "Home");
-                }
-            }
-            else
-            {
-                TempData["Mensaje"] = "Error el usuario o contraseña no son correctos...";
-
-                return View(cita);
-            }
-
-        }//Fin metodo ValidarUsuario
 
         private Cita ValidarUsuario(Cita temp)
         {
             Cita autorizado = null;
-            var user = _context.citas.FirstOrDefault(u => u.Email == temp.Email);
+            var user = _context.Citas.FirstOrDefault(u => u.Email == temp.Email);
 
             if (user != null)
             {
-                if (user.Password.Equals(temp.Password))
+                if (user.Placa.Equals(temp.Placa))
                 {
                     autorizado = user;
                 }
@@ -83,38 +46,272 @@ namespace Examen_1_B43383.Controllers
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind] Cita citas)
-        { 
-            if (citas == null)
+        {
+            if (citas == null)//Validacion de datos
             {
-                return NotFound(); 
+                return View();
             }
-            else 
+            else
             {
-                citas.FechaHoraRevision = DateTime.Now; 
-                citas.Estado = 'P'; 
+                citas.Id=0;
 
-                _context.citas.Add(citas);
-
-                try 
+                //Validacion de cita
+                var cita = await _context.Citas.FirstOrDefaultAsync(r => r.FechaHoraRevision == citas.FechaHoraRevision);
+                if (cita != null)
                 {
-   
-                    await _context.SaveChangesAsync();
-                    Email email = new Email();
-                    email.Enviar(citas);
-                    return RedirectToAction("Login", "Cita");
-                }
-                catch (Exception ex)
-                {
-
-                    TempData["Mensaje"] = "No se creo la cuenta..";
-                    return View(); 
+                    ModelState.AddModelError("Fecha", "Ya existe una cita para esta fecha");
+                    return View();
                 }
 
+                _context.Citas.Add(citas);
+                await _context.SaveChangesAsync();
+                EnviarEmail(citas);
+                return RedirectToAction("Index","Home");
             }
+
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Update(int id)
+        {
+            var temp = await _context.Citas.FirstOrDefaultAsync(r => r.Id == id);
+            return View(temp);
+        }
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Update(int id,[Bind] Cita citas)
+        //{
+        //    if (citas != null)
+        //    {
+        //        return RedirectToAction("Index", "Cita");
+        //    }
+        //    else
+        //    {
+        //        var cita = await _context.Citas.FirstOrDefaultAsync(r => r.Id == citas.Id);
+        //        if (citas.Observacion == null && citas.Mantenimiento == null && citas.Precio == 0)
+        //        {
+        //            cita.Placa = citas.Placa;
+        //            cita.Cedula = citas.Cedula;
+        //            cita.NombreCompleto = citas.NombreCompleto;
+        //            cita.Email = citas.Email;
+        //            cita.TipoRevision = citas.TipoRevision;
+        //            cita.FechaHoraRevision = citas.FechaHoraRevision;
+        //            cita.Estado = 'A';
+        //            _context.Citas.Update(cita);
+        //            await _context.SaveChangesAsync();
+        //            ConfirmacionRevision(citas);
+        //            return RedirectToAction("Index", "Cita");
+
+        //        }
+        //        else
+        //        {
+        //            return RedirectToAction("Index", "Cita");
+        //        }
+        //    }
+
+        //}
+
+        // -------------------- ALTERNATIVA CLASICA EDIT --------------------
+        //Actualizar cita con los datos estado, observacion, mantenimiento y precio
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int id,[Bind] Cita citas)
+        {
+
+            if (id == citas.Id)
+            {
+                var temp = await _context.Citas.FirstOrDefaultAsync(r => r.Id == id);
+                _context.Citas.Remove(temp);
+                citas.Estado = 'A';
+                _context.Citas.Update(citas);
+                await _context.SaveChangesAsync();
+                ConfirmacionRevision(citas);
+                return RedirectToAction("Index","Cita");
+
+            }
+            else
+            {
+                return NotFound();
+
+            }
+
+            //    ////Generar codigo de editar cita
+            //    //if (citas.Id != null)
+            //    //{
+            //    //    var cita = await _context.Citas.FirstOrDefaultAsync(r => r.Id == citas.Id);
+            //    //    if (cita != null)
+            //    //    {
+
+            //    //        cita.Estado = 'A';
+            //    //        _context.Citas.Update(cita);
+            //    //        await _context.SaveChangesAsync();
+            //    //        Email email = new Email();
+            //    //        email.EnviarObservacion(citas);
+            //    //        return RedirectToAction("Index", "Cita");
+
+            //    //    }
+            //    //    else
+            //    //    {
+            //    //        return NotFound();
+            //    //    }
+
+            //    //}
+            //    //else
+            //    //{
+            //    //    return View();
+            //    //}   
+
+            //    //if (citas == null)
+            //    //{
+            //    //    return NotFound();
+            //    //}
+            //    //else
+            //    //{
+            //    //    var cita = await _context.Citas.FirstOrDefaultAsync(r => r.Id == citas.Id);
+            //    //    if (citas.Observacion == null && citas.Mantenimiento == null && citas.Precio == 0 )
+            //    //    {
+            //    //        //return NotFound();
+            //    //        cita.Placa = citas.Placa;
+            //    //        cita.Cedula = citas.Cedula;
+            //    //        cita.NombreCompleto = citas.NombreCompleto;
+            //    //        cita.Email = citas.Email;
+            //    //        cita.TipoRevision = citas.TipoRevision;
+            //    //        cita.FechaHoraRevision = citas.FechaHoraRevision;
+            //    //        cita.Estado = 'A';
+            //    //        _context.Citas.Update(cita);
+            //    //        await _context.SaveChangesAsync();
+            //    //        Email email = new Email();
+            //    //        email.EnviarObservacion(citas);
+            //    //        return RedirectToAction("Index", "Cita");
+
+            //    //    }
+            //    //    else
+            //    //    {
+            //    //        return RedirectToAction("Index", "Cita");
+            //    //    }
+            //    //}
+
+            //    //citas.Estado = 'A';
+            //    //citas.Observacion = citas.Observacion;
+            //    //citas.Mantenimiento = citas.Mantenimiento;
+            //    //citas.Precio = citas.Precio;
+            //    //_context.Citas.Update(citas);
+            //    //await _context.SaveChangesAsync();
+            //    //Email email = new Email();
+            //    //email.EnviarObservacion(citas);
+            //    //return RedirectToAction("Index", "Home");
+
+            }
+
+            // -------------------- ALTERNATIVA PRINCIPAL EDIT --------------------
+
+            //[HttpPost]
+            //[ValidateAntiForgeryToken]
+
+            //public async Task<IActionResult> Edit(int id, [Bind] Cita cCitas/*,Diagnostico resultado*/)
+            //{
+
+            //    if (cCitas != null)
+            //    {
+            //        var temp = await _context.Citas.FirstOrDefaultAsync(r => r.Id == id);
+
+            //        cCitas.Estado = 'A';
+            //        _context.Citas.Update(cCitas);
+            //        await _context.SaveChangesAsync();
+            //        Email email = new Email();
+            //        email.EnviarObservacion(cCitas/*, resultado*/);
+            //        return RedirectToAction("Index", "Home");
+
+            //        //cCitas.Estado = 'A';
+            //        //_context.Citas.Update(cCitas);
+            //        //await _context.SaveChangesAsync();
+            //        //Email email = new Email();
+            //        //email.EnviarObservacion(cCitas);
+            //        //return RedirectToAction("Index");
+            //    }
+            //    else
+            //    {
+
+            //        return NotFound();
+            //    }
+
+            //}//Fin metodo Edit httpPost
+
+            // ------------------------------------------------------------------------------------------------
+
+            // -------------------- ALTERNATIVA EDIT --------------------
+            //[HttpPost]
+            //[ValidateAntiForgeryToken]
+            //public async Task<IActionResult> Edit([Bind] Cita citas)
+            //{
+            //    if (citas == null)
+            //    {
+            //        return NotFound();
+            //    }
+            //    else
+            //    {
+            //        var cita = await _context.Citas.FirstOrDefaultAsync(r => r.Id == citas.Id);
+            //        if (cita == null)
+            //        {
+            //            return NotFound();
+            //        }
+            //        else
+            //        {
+            //            cita.Estado = 'A';
+            //            _context.Citas.Update(cita);
+            //            await _context.SaveChangesAsync();
+            //            Email email = new Email();
+            //            email.EnviarObservacion(citas);
+            //            return RedirectToAction("Index", "Home");
+            //        }
+            //    }
+            //}
+
+            //Metodos de la clase
+            //Envio de email inicial
+
+            public bool EnviarEmail(Cita citas)
+        {
+            try
+            {
+                bool enviar = true;
+                Email email = new Email();
+                email.Enviar(citas);
+                enviar = true;
+                return enviar;
+
+            }
+            catch (Exception ex)
+            {
+                return false;
+
+            }
+
+        }//Fin metodo enviar email
+
+        public bool ConfirmacionRevision(Cita citas)
+        {
+            try
+            {
+                bool enviar = true;
+                Email email = new Email();
+                email.EnviarObservacion(citas);
+                enviar = true;
+                return enviar;
+
+            }
+            catch (Exception ex)
+            {
+                return false;
+
+            }
+
+        }//Fin metodo enviar email
 
     }//Fin clase
 
