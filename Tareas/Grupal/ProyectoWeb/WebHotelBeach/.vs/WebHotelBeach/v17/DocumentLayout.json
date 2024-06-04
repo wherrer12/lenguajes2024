@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\WebHotelBeach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A78C7525-5EEE-41FF-9765-7A635E154698}|WebHotelBeach\\WebHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\webhotelbeach\\webhotelbeach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A78C7525-5EEE-41FF-9765-7A635E154698}|WebHotelBeach\\WebHotelBeach.csproj|solutionrelative:webhotelbeach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\WebHotelBeach\\WebHotelBeach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebHotelBeach\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\WebHotelBeach\\WebHotelBeach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebHotelBeach\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAFoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:35:48.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

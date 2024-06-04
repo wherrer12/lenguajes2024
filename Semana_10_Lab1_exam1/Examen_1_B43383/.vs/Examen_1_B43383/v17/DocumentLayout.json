@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\semana_10_lab1_exam1\\examen_1_b43383\\examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E3D52D63-AA53-4BAD-B7FF-8BAF263550D8}|Examen_1_B43383\\Examen_1_B43383.csproj|solutionrelative:examen_1_b43383\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Examen_1_B43383\\wwwroot\\css\\site.css",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "Examen_1_B43383\\wwwroot\\css\\site.css",
               "ViewState": "AQIAABAAAAAAB+4Y9GQbwCgAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-24T20:50:53.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T20:50:53.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Create.cshtml",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Create.cshtml",
@@ -91,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DbContextCita.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\DbContextCita.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\DbContextCita.cs",
@@ -103,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Controllers\\UsuariosController.cs",
@@ -115,19 +114,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
               "RelativeDocumentMoniker": "Examen_1_B43383\\appsettings.json",
               "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\appsettings.json",
               "RelativeToolTip": "Examen_1_B43383\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-24T16:14:26.66Z"
+              "WhenOpened": "2024-05-24T16:14:26.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Usuario.cs",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CitaController.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Controllers\\CitaController.cs",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Cita.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Cita.cs",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Email.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Models\\Email.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Models\\Email.cs",
@@ -171,12 +171,11 @@
               "RelativeToolTip": "Examen_1_B43383\\Models\\Email.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAswB8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T17:05:24.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:05:24.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Usuarios\\Login.cshtml",
@@ -188,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Cita\\Update.cshtml",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Cita\\Update.cshtml",
@@ -196,12 +195,11 @@
               "RelativeToolTip": "Examen_1_B43383\\Views\\Cita\\Update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T18:14:43.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T18:14:43.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20240524192654_newTableCita.cs",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Migrations\\20240524192654_newTableCita.cs",
@@ -213,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Semana_10_Lab1_exam1\\Examen_1_B43383\\Examen_1_B43383\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Examen_1_B43383\\Views\\Home\\Index.cshtml",

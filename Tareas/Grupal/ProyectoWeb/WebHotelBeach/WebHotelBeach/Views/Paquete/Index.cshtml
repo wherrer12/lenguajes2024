@@ -1,0 +1,171 @@
+﻿@model IEnumerable<WebHotelBeach.Models.Paquete>
+@using System.Collections.Generic;
+@using System.Security.Claims;
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container">
+
+
+    <form id="Formulario">
+
+
+
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Email de Usuario</th>
+                    <th>Paquete</th>
+                    <th>Personas</th>
+                    <th>Fecha de Reserva</th>
+                    <th>Noches</th>
+                    <th>Forma de Pago</th>
+                    <th>Monto Total</th>
+                    <th>Monto en Colones</th>
+                    <th>Adelanto</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-------Si el admin esta en la vista, el podra ver todos los paquetes registrados-------->
+                @if (User.Identity.IsAuthenticated && User.FindFirstValue("Rol").Equals("admin"))
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                            <td>@Html.DisplayFor(modelItem => item.EmailUsuario)</td>
+                            <td>@Html.DisplayFor(modelItem => item.nombrePaquete)</td>
+                            <td>@Html.DisplayFor(modelItem => item.cantidadPersonas)</td>
+                            <td>@Html.DisplayFor(modelItem => item.FechaReserva)</td>
+                            <td>@Html.DisplayFor(modelItem => item.cantidadNoches)</td>
+                            <td>@Html.DisplayFor(modelItem => item.formadePago)</td>
+                            <td>$@Html.DisplayFor(modelItem => item.montoTotal)</td>
+                            <td>₡<span class="montoColones" data-monto-total="@item.montoTotal">Calculando...</span></td>
+                            <td>$@Html.DisplayFor(modelItem => item.Prima)</td>
+                            <td class="actions">
+                                <button type="button" onclick="window.location.href='@Url.Action("Edit", "Paquete", new { id = item.Id })'" class="btn btn-outline-info">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+                                        <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                                    </svg>
+                                </button>
+
+
+
+
+                                <button type="button" onclick="window.location.href='@Url.Action("Details", "Paquete", new { id = item.Id })'" class="btn btn-outline-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                                        <path d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
+                                    </svg>
+                                </button>
+
+
+
+
+
+                                <button type="button" onclick="window.location.href='@Url.Action("Delete", "Paquete", new { id = item.Id })'" class="btn btn-outline-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                    </svg>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    foreach (var item in Model)
+                    {
+                        <!-------caso contrario, se consulta cual usaurio esta viendo la lista y se muestran sus propios paquetes-------->
+                        if (User.Identity.Name == item.EmailUsuario)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.EmailUsuario)</td>
+                                <td>@Html.DisplayFor(modelItem => item.nombrePaquete)</td>
+                                <td>@Html.DisplayFor(modelItem => item.cantidadPersonas)</td>
+                                <td>@Html.DisplayFor(modelItem => item.FechaReserva)</td>
+                                <td>@Html.DisplayFor(modelItem => item.cantidadNoches)</td>
+                                <td>@Html.DisplayFor(modelItem => item.formadePago)</td>
+                                <td>$@Html.DisplayFor(modelItem => item.montoTotal)</td>
+                                <td>₡<span class="montoColones" data-monto-total="@item.montoTotal">Calculando...</span></td>
+                                <td>$@Html.DisplayFor(modelItem => item.Prima)</td>
+                                <td class="actions">
+                                    <button type="button" onclick="window.location.href='@Url.Action("Edit", "Paquete", new { id = item.Id })'" class="btn btn-outline-success">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+                                            <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                                        </svg>
+                                    </button>
+
+
+
+
+                                    <button type="button" onclick="window.location.href='@Url.Action("Details", "Paquete", new { id = item.Id })'" class="btn btn-outline-info">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                                            <path d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
+                                        </svg>
+                                    </button>
+
+
+
+
+
+                                    <button type="button" onclick="window.location.href='@Url.Action("Delete", "Paquete", new { id = item.Id })'" class="btn btn-outline-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                            <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                        </svg>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                }
+            </tbody>
+        </table>
+
+    </form>
+
+</div>
+
+
+<script>
+
+//este script maneja los al momento el cambio a colones del monto total
+
+//se activa el listener
+document.addEventListener("DOMContentLoaded", function () {
+    //se llama a la api
+    fetch("https://apis.gometa.org/tdc/tdc.json")
+        .then(response => response.json())
+        .then(data => {
+            //se traen los datos necesarios para hacer la conversion
+            const exchangeRate = data.venta;
+
+            //se hace el calculo a colones 
+            document.querySelectorAll(".montoColones").forEach(element => {
+                const montoTotal = parseFloat(element.dataset.montoTotal);
+                const montoColones = montoTotal * exchangeRate;
+                //se envia el calculo obtenido a la lista
+                element.textContent = montoColones.toFixed(2);
+            });
+        })
+        .catch(error => {
+            //error
+            console.error('Error al obtener el tipo de cambio:', error);
+            document.querySelectorAll(".montoColones").forEach(element => {
+                element.textContent = "Error al calcular";
+            });
+        });
+});
+</script>

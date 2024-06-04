@@ -1,0 +1,166 @@
+﻿@model WebHotelBeach.Models.Paquete
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+
+
+    <form id="Formulario">
+
+
+
+
+        <h1>Details</h1>
+
+        <div>
+            <h4>Paquete</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    ID
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt class="col-sm-2">
+                    Nombre de Paquete
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.nombrePaquete)
+                </dd>
+                <dt class="col-sm-2">
+                    Coste por noche
+                </dt>
+                <dd class="col-sm-10">
+                    $ @Html.DisplayFor(model => model.coste)
+                </dd>
+                <dt class="col-sm-2">
+                    Cantidad de Personas
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.cantidadPersonas)
+                </dd>
+                <dt class="col-sm-2">
+                    Fecha de Reserva
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.FechaReserva)
+                </dd>
+                <dt class="col-sm-2">
+                    Cantidad de Noches
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.cantidadNoches)
+                </dd>
+                <dt class="col-sm-2">
+                    Forma de Pago
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.formadePago)
+                </dd>
+                @if (Model.numeroCheque > 0)
+                {
+                    <dt class="col-sm-2">
+                        Numero de Cheque
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.numeroCheque)
+                    </dd>
+                }
+
+                <dt class="col-sm-2">
+                    Email del Usuario
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.EmailUsuario)
+                </dd>
+                <dt class="col-sm-2">
+                    Monto Total
+                </dt>
+                <dd class="col-sm-10">
+                    $ @Html.DisplayFor(model => model.montoTotal)
+                </dd>
+                <dt class="col-sm-2">
+                    Adelanto
+                </dt>
+                <dd class="col-sm-10">
+                    $ @Html.DisplayFor(model => model.Prima)
+                </dd>
+                <dt class="col-sm-2">
+                    Cuotas Mensuales
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.cuotas)
+                </dd>
+                <dt class="col-sm-2">
+                    Descuento
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.descuento)%
+                </dd>
+                <dt class="col-sm-2">
+                    Tipo de Cambio
+                </dt>
+                <dd class="col-sm-10">
+                    ₡ <span id="tipoCambioVenta">Calculando...</span>
+                </dd>
+                <dt class="col-sm-2">
+                    Monto en Colones
+                </dt>
+                <dd class="col-sm-10">
+                    ₡ <span id="montoColones">Calculando...</span>
+                </dd>
+            </dl>
+            </dl>
+        </div>
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id },  new { @class = "btn btn-sm btn-outline-secondary mt-3" }) |
+            <a asp-action="Index" class="btn btn-dark mt-3">Back to List</a>
+        </div>
+
+
+    </form>
+
+</div>
+
+
+<script>
+
+
+    //-------------------------UTILIZAMOS ESTE SCRIPT PARA MANEJAR LOS DATOS EN TIPO CAMBIO Y PAGO EN COLONES--------------------
+
+
+    //se activa el listener
+    document.addEventListener("DOMContentLoaded", function () {
+        //se llama a la api
+        fetch("https://apis.gometa.org/tdc/tdc.json")
+            .then(response => response.json())
+            .then(data => {
+                //se intentan obtener los datos
+                if (data && data.venta) {
+
+                    const exchangeRate = parseFloat(data.venta);
+                    const montoTotal = parseFloat("@Model.montoTotal"); // Obtener el monto total de la vista
+                    const montoColones = montoTotal * exchangeRate;
+
+                    //se envian los datos correspondientes
+                    document.getElementById("tipoCambioVenta").textContent = exchangeRate.toFixed(2);
+                    document.getElementById("montoColones").textContent = montoColones.toFixed(2);
+                } else {
+                    //error al obtener la api
+                    document.getElementById("tipoCambioVenta").textContent = "Error al obtener";
+                    document.getElementById("montoColones").textContent = "Error al calcular";
+                }
+            })
+            .catch(error => {
+                //error al leer la api
+                console.error('Error al obtener el tipo de cambio:', error);
+                document.getElementById("tipoCambioVenta").textContent = "Error al obtener";
+                document.getElementById("montoColones").textContent = "Error al calcular";
+            });
+    });
+</script>

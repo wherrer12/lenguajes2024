@@ -1,0 +1,1 @@
+ Scaffold-DbContext "Server=WHR_LTP_DLL\SQLEXPRESS; DataBase=BdInvestBlazor; User Id=sa;Password=Ucr2024; Trusted_Connection=True; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models

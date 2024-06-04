@@ -1,0 +1,130 @@
+﻿@model WebHotelBeach.Models.Paquete
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <hr />
+    <div class="row">
+
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4">
+            <form asp-action="Edit" id="FormularioCreate">
+
+
+                @if (TempData["Mensaje"] != null)
+                {
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Error!</strong> @TempData["Mensaje"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+
+                <img src="~/css/img/HotelBeach_LogoDorado.png" id="logito" />
+
+                <h4 class="text-center">Editar Paquete</h4>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                        <div class="form-group">
+                            <label asp-for="Id" class="control-label"></label>
+                            <input asp-for="Id" class="form-control" readonly />
+                            <span asp-validation-for="Id" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="nombrePaquete" class="control-label"></label>
+                            <input asp-for="nombrePaquete" class="form-control" readonly />
+                            <span asp-validation-for="nombrePaquete" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="coste" class="control-label"></label>
+                            <input asp-for="coste" class="form-control" readonly />
+                            <span asp-validation-for="coste" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="cantidadPersonas" class="control-label"></label>
+                            <input asp-for="cantidadPersonas" class="form-control" />
+                            <span asp-validation-for="cantidadPersonas" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FechaReserva" class="control-label"></label>
+                            <input asp-for="FechaReserva" class="form-control" />
+                            <span asp-validation-for="FechaReserva" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="cantidadNoches" class="control-label"></label>
+                            <input asp-for="cantidadNoches" class="form-control" />
+                            <span asp-validation-for="cantidadNoches" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="formadePago" class="control-label"></label>
+                            <select asp-for="formadePago" class="form-control">
+                                <option selected="selected" value="Efectivo">Efectivo</option>
+                                <option value="Tarjeta">Tarjeta</option>
+                                <option value="Cheque">Cheque</option>
+                            </select>
+                            <span asp-validation-for="formadePago" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="numeroCheque" class="control-label"></label>
+                            <input asp-for="numeroCheque" class="form-control" />
+                            <span asp-validation-for="numeroCheque" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EmailUsuario" class="control-label"></label>
+                            <input asp-for="EmailUsuario" class="form-control" readonly />
+                            <span asp-validation-for="EmailUsuario" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary mt-3" />
+                            <a asp-action="Index" class="btn btn-dark mt-3">Back to List</a>
+                        </div>
+
+            </form>
+        </div>
+
+        <div class="col-md-4"></div>
+
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    <script>
+
+//este script se utiliza para manejar los campo de forma de pago y cheque
+
+        //se ejecuta el listener
+        document.addEventListener('DOMContentLoaded', function () {
+
+            //se traen los datos necesarios del form
+            const formaDePagoSelect = document.getElementById('formadePago');
+            const numeroChequeInput = document.getElementById('numeroCheque');
+
+            //se crea la funcion
+            function toggleChequeField() {
+                //se valida si tipo de pago es igual a cheque
+                if (formaDePagoSelect.value === 'Cheque') {
+                    //de ser corrcto se podra modificar el espacio de numero de cheque
+                    numeroChequeInput.disabled = false;
+                } else {
+                    //de lo contrario seguira bloqueado
+                    numeroChequeInput.disabled = true;
+                    numeroChequeInput.value = ''; // Limpia el valor si no es 'Cheque'
+                }
+            }
+
+            toggleChequeField(); // Llamada inicial al cargar la página
+            formaDePagoSelect.addEventListener('change', toggleChequeField);
+        });
+    </script>
+}

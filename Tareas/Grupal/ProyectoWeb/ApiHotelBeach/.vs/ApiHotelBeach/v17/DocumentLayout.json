@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\model\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\model\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\model\\dbcontexthotelesbeach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\model\\dbcontexthotelesbeach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\controllers\\paquetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\paquetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\proyecto_if4101_v2\\1\\proyectolenguajes\\apihotelbeach\\apihotelbeach\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{236C459B-C99B-404D-9A9A-1FC60DA3C74C}|ApiHotelBeach\\ApiHotelBeach.csproj|solutionrelative:apihotelbeach\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 10,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaqueteController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Controllers\\PaqueteController.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Controllers\\PaqueteController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Controllers\\PaqueteController.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Controllers\\PaqueteController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAYwIsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:26:38.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Program.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Program.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Program.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:26:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\appsettings.json",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\appsettings.json",
+              "RelativeToolTip": "ApiHotelBeach\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T03:26:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Paquete.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\Paquete.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Model\\Paquete.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\Paquete.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Model\\Paquete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:24:07.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbContextHotelesBeach.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\DbContextHotelesBeach.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Model\\DbContextHotelesBeach.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\DbContextHotelesBeach.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Model\\DbContextHotelesBeach.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:18:26.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\Cliente.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Model\\Cliente.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Model\\Cliente.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Model\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:16:47.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ApiHotelBeach\\Controllers\\ClienteController.cs",
+              "ToolTip": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\Proyecto_IF4101_V2\\1\\ProyectoLenguajes\\ApiHotelBeach\\ApiHotelBeach\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ApiHotelBeach\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T07:58:52.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

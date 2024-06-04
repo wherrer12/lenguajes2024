@@ -1,0 +1,133 @@
+﻿@using System.Security.Claims
+@model WebHotelBeach.Models.Cliente
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4">
+        <form asp-action="Edit" id="FormularioCreate">
+
+
+            @if (TempData["Mensaje"] != null)
+            {
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Error!</strong> @TempData["Mensaje"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <img src="~/css/img/HotelBeach_LogoDorado.png" id="logito" />
+
+            <h5 class="text-center">Modificacion de Cliente</h5>
+
+
+                    <div class="form-group">
+                        <label asp-for="Id" class="control-label"></label>
+                        <input asp-for="Id" class="form-control" readonly />
+                        <span asp-validation-for="Id" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TipoCedula" class="control-label"></label>
+                        <select asp-for="TipoCedula" class="form-control" readonly>
+                            <option selected="selected" value="Nacional">Nacional</option>
+                            <option value="Dimex">Dimex</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                            <option value="Juridica">Juridica</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                        <span asp-validation-for="TipoCedula" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Cedula" class="control-label"></label>
+                        <input asp-for="Cedula" class="form-control" readonly />
+                        <span asp-validation-for="Cedula" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" />
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Direccion" class="control-label"></label>
+                        <input asp-for="Direccion" class="form-control" />
+                        <span asp-validation-for="Direccion" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" readonly />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Clave" class="control-label"></label>
+                        <input asp-for="Clave" class="form-control" />
+                        <span asp-validation-for="Clave" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary mt-3" />
+
+                        <!-----Si el cliente quiere darle a "ATRAS" se le enviara a los detalles de su cuenta---->
+                        @if (User.FindFirstValue("Rol").Equals("cliente"))
+                        {
+                            <a asp-action="Details" asp-controller="Cliente" asp-route-Id="@Model.Id" class="btn btn-dark mt-3">Volver</a>
+                        }
+                        else
+                        {
+                            <!-----si es el admin se le enviara a a lista de usarios---->
+                            <!-----porque no a los detalles de su cuenta? recordemos que el admin no se debe de modificar---->
+                            <a asp-action="Index" class="btn btn-dark mt-3">Lista</a>
+           
+                            
+                        }
+                        
+                    </div>
+
+            
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+
+</div>
+
+
+
+<style>
+
+    #logito {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 42px; /* Tamaño de la imagen ajustado */
+        height: 42px; /* Tamaño de la imagen ajustado */
+    }
+
+
+    #FormularioCreate {
+        border: 1px solid #dedede;
+        background-color: whitesmoke;
+        border-radius: 1em;
+        box-shadow: 5px 5px 5px rgba(25,0,0,25);
+        padding: 1em;
+        width: 80%; /* Modifica este valor según sea necesario */
+        max-width: 800px; /* Establece un ancho máximo para el formulario */
+        min-width: 400px; /* Establece un ancho mínimo para el formulario */
+        margin: 0 auto; /* Centra el formulario horizontalmente */
+        text-align: left;
+        color: #393939;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+</style>
+

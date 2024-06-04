@@ -1,0 +1,141 @@
+﻿@* Uso de librerias*@
+
+@using System.Collections.Generic;
+@using System.Security.Claims;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Hotel Beach</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebHotelBeach.styles.css" asp-append-version="true" />
+</head>
+<body >
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black  box-shadow mb-3" >
+            <div class="container-fluid">
+                <li class="nav-item">
+                    <a asp-controller="Home" asp-action="Index" class="navbar-brand text-light">
+                        <img src="~/css/img/HotelBeach_LogoDorado.png" class="navbar-logo" style="width: 32px; height: 32px;" />
+                        Hotel Beach SA
+                    </a>
+                </li>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        
+
+
+                        <!----------La opcion de compra solo esta hailitada ara los clientes---->
+                        @if (User.Identity.IsAuthenticated == false || User.FindFirstValue("Rol").Equals("cliente"))
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Paquete" asp-action="Create">Comprar</a>
+                            </li>
+
+                            
+                            
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Gallery">Paquetes</a>
+                        </li>
+
+                        <!---------En caso de que el admin haya iniciado sesion, permita ver la lsta de paquetes y clientes---->
+                        @if (User.Identity.IsAuthenticated && User.FindFirstValue("Rol").Equals("admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Paquete" asp-action="Index">Paquetes Comprados</a>
+                            </li>
+ 
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Cliente" asp-action="Index">Clientes Registrados</a>
+                            </li>
+                        }
+                    </ul>
+                    
+                    <ul class="navbar-nav flex-grow-2">
+
+                        <!----------independientemente del rol, cuando se incia sesion, se muestra un dropdown ---->
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var userName = User.FindFirstValue("NombreUsuario");
+
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle dropdown-button-custom" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                                        <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                    </svg> @userName
+                                </button>
+                                <!---Referencia de dropdown de admin y ciente----->
+                                @if (User.FindFirstValue("Rol").Equals("admin"))
+                                {
+                                    <!---el admin inicia sesion----->
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a id="perfilLink" class="dropdown-item" href="/Cliente/Details/@User.FindFirstValue("Id")">Mi Perfil</a>
+                                        <li><a class="dropdown-item" asp-controller="Paquete" asp-action="Index">Reservas</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Logout">Cerrar Sesion</a></li>
+                                    </ul>
+                                }
+                                else
+                                {
+                                    <!--sesion del cliente ----->
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a id="perfilLink" class="dropdown-item" href="/Cliente/Details/@User.FindFirstValue("Id")">Mi Perfil</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Paquete" asp-action="Index">Mis Reservas</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Logout">Cerrar Sesion</a></li>
+                                    </ul>
+                                }
+
+                                
+                            </div>
+                        }
+                        else
+                        {
+                            <!---no se ha inciado sesion----->
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Usuario" asp-action="Login">
+                                    Iniciar Sesion
+                                </a>
+                            </li>
+
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+<style>
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        border-bottom: none; /* Remueve la línea blanca */
+    }
+
+    .navbar-nav .nav-item img.navbar-logo {
+        margin-right: 5px;
+        width: 32px; /* Tamaño de la imagen ajustado */
+        height: 32px; /* Tamaño de la imagen ajustado */
+    }
+</style>

@@ -1,0 +1,166 @@
+﻿@model WebHotelBeach.Models.Cliente
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-md-4"></div>
+
+
+
+        <div class="col-md-4">
+
+        <form asp-action="Create" id="FormularioCreate" style="display: inline-block;">
+           
+                @if (TempData["Mensaje"] != null)
+                {
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Error!</strong> @TempData["Mensaje"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+       
+                <img src="~/css/img/HotelBeach_LogoDorado.png" id="logito"/>
+          
+            <h4 class="text-center">Registro</h4>
+
+        
+
+                        <div class="form-group">
+                            <label asp-for="TipoCedula" class="control-label"></label>
+                            <select asp-for="TipoCedula" class="form-control" id="TipoCedula" onchange="CambioCedula()">
+                                <option selected="selected" value="Nacional">Nacional</option>
+                                <option value="Dimex">Dimex</option>
+                                <option value="Pasaporte">Pasaporte</option>
+                                <option value="Juridica">Juridica</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                            <span asp-validation-for="TipoCedula" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Cedula" class="control-label"></label>
+                            <input asp-for="Cedula" class="form-control" id="Cedula" onblur="llamadaAPI()" />
+                            <span asp-validation-for="Cedula" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Nombre" class="control-label"></label>
+                            <input asp-for="Nombre" class="form-control" readonly id="Nombre" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Telefono" class="control-label"></label>
+                            <input asp-for="Telefono" class="form-control" />
+                            <span asp-validation-for="Telefono" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Direccion" class="control-label"></label>
+                            <input asp-for="Direccion" class="form-control" />
+                            <span asp-validation-for="Direccion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Clave" class="control-label"></label>
+                            <input asp-for="Clave" class="form-control" />
+                            <span asp-validation-for="Clave" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Create" class="btn btn-primary mt-3" />
+
+                            <a asp-action="Index" asp-controller="Home" class="btn btn-dark mt-3">Volver</a>
+
+                        </div>
+                   
+               
+
+            </form>
+        </div>
+
+        <div class="col-md-4"></div>
+
+    </div>
+
+
+
+
+@section Scripts {
+    <script>
+
+//------------------ESTE SCRIPT SE UTILIZA PARA MANEJAR EL TIPO DE CEDULA Y BUSCAR AL CLIENTE EN LA API----------------------------
+
+        //se crea el listener de los eventos
+        document.addEventListener('DOMContentLoaded', function () {
+
+            //se obtienen los datos necesario
+            const tipoCedula = document.getElementById('TipoCedula');
+            const nombreInput = document.getElementById('Nombre');
+            const cedula = document.getElementById('Cedula');
+
+            //se crea la funcion para manejar las cajas de nombre a base del tipo cedula
+            function CambioCedula() {
+                
+                //verifica el dato escogido en tipo cedula
+                if (tipoCedula.value === "Nacional") {
+                    //en caso de que el tipo de cedula se nacional
+                    //mantendra el nombre como readonly y asi poder buscarlo en la API
+                    nombreInput.readOnly = true;
+                } 
+                else {
+                    //si no, podra modificar el nombre puesto que la api no lee otro tipo de cedulas
+                    nombreInput.readOnly = false;
+                }
+            }
+
+            //evento que obtiene los datos de la api cedulas
+            async function llamadaAPI() {
+
+                //revisa si el tipo cedula es nacional y haya escrito algo en cedula
+                if (tipoCedula.value === "Nacional" && cedula.value) {
+                    try {
+
+                        //de ser correcto se crea una variable que obtiene el dato necesario en la api
+                        //dando al link el dato dado en el campo de la cedula
+                        var response = await fetch(`https://apis.gometa.org/cedulas/${cedula.value}`);
+
+                        //se espera la respuesta
+                        if (response.ok) {
+
+                            //si la respuesta es correcta
+                            //se obtine los datos de la api
+                            var data = await response.json();
+                            if (data && data.nombre) {
+                                //si la respuesta es correcta, se obtiene el campo nombre de la API
+                                nombreInput.value = data.nombre;
+                            } else {
+                                //en caso de que la cedula este mal escrita, se dara este error
+                                nombreInput.value = 'Nombre no encontrado';
+                            }
+                        } else {
+                            //respuesta incorrecta
+                            nombreInput.value = 'Error al buscar nombre';
+                        }
+                    } catch (error) {
+                        //respuesta incorrecta
+                        nombreInput.value = 'Error al buscar nombre';
+                    }
+                }
+            }
+
+            // Attach event listeners
+            tipoCedula.addEventListener('change', CambioCedula);
+            cedula.addEventListener('blur', llamadaAPI);
+
+            // Initialize state
+            CambioCedula();
+        });
+    </script>
+}

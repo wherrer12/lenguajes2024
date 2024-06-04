@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewData["Title"] = "Gallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="image-container">
+                <img src="~/css/img/1.png" alt="Imagen 1">
+            </div>
+            <div class="text">
+                <h1>Todo Incluido</h1>
+                <p style="text-align: center;">Este paquete ofrece una experiencia completa de vacaciones donde los huéspedes pueden relajarse, disfrutar de deliciosa comida y participar en una amplia variedad de actividades, todo por un precio de $450 por persona.</p>
+
+                <div class="container">
+             
+
+                    <div class="section">
+                        <h5>Hospedaje</h5>
+                        <ul>
+
+                            <li>Habitación equipada con todas las comodidades necesarias, como aire acondicionado, televisión por cable, minibar y acceso a internet.</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="section">
+                        <h5>Alimentación</h5>
+                        <ul>
+                            <li>Tres comidas al día incluidas (desayuno, almuerzo y cena) en el restaurante buffet del hotel.</li>
+                            <li>Snacks y bebidas ilimitadas durante todo el día en los bares y áreas de piscina.</li>
+                        </ul>
+                    </div>
+
+                    <div class="section">
+                        <h5>Diversión</h5>
+                        <ul>
+                            <li>Acceso ilimitado a todas las instalaciones recreativas del hotel, como piscinas, jacuzzis, gimnasio y canchas deportivas.</li>
+                            <li>Programa de entretenimiento diurno y nocturno, que incluye actividades como clases de baile, deportes acuáticos no motorizados, espectáculos en vivo y fiestas temáticas.</li>
+                        </ul>
+                    </div>
+
+
+            </div>
+        </div>
+       
+           
+        </div>
+
+
+        <div class="row" style="background-color: #444;">
+            
+
+            <div class="text" style="text-align: center;">
+                <h1>Alimentacion</h1>
+                <p style="text-align: center;">Este paquete ofrece una experiencia gastronómica completa con deliciosas comidas y una amplia variedad de opciones, todo por un precio de $275 por persona.</p>
+            
+
+            <div class="container">
+                <div class="section">
+                    <ul>
+                        <li>Tres comidas al día incluidas (desayuno, almuerzo y cena) en el restaurante buffet del hotel.</li>
+                        <li>Snacks y bebidas ilimitadas durante todo el día.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <div class="image-container">
+                <img src="~/css/img/2.png" alt="Imagen 2">
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="image-container">
+                <img src="~/css/img/3.png" alt="Imagen 3">
+            </div><div class="text" style="text-align: center;">
+
+                <h1>Hospedaje</h1>
+                <p style="text-align: center;"> Disfruta de una experiencia única en nuestro exclusivo hotel con un paquete de hospedaje diseñado para ofrecerte comodidad, lujo y una variedad de servicios que harán de tu estancia una experiencia inolvidable.</p>
+
+
+                <div class="container">
+                    <div class="section">
+                        <h5>Habitación Superior:</h5>
+                        <ul>
+                            <li>Alojamiento en una habitación superior con vistas panorámicas.</li>
+                            <li>Cama king size o dos camas individuales según preferencia.</li>
+                            <li>Baño privado con ducha de lluvia y artículos de tocador de lujo.</li>
+                            <li>Televisión de pantalla plana con canales por cable.</li>
+                            <li>Wi-Fi de alta velocidad gratuito.</li>
+                            <li>Aire acondicionado y calefacción individual.</li>
+                        </ul>
+                    </div>
+
+                    <div class="container">
+                        <div class="section">
+
+                            <h5>Acceso a Instalaciones:</h5>
+                            <ul>
+                                <li>Uso ilimitado del gimnasio totalmente equipado.</li>
+                                <li>Acceso a la piscina al aire libre con zona de solárium y tumbonas.</li>
+                                <li>Acceso al spa y sauna (con un descuento del 20% en tratamientos adicionales).</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0; /* Color de fondo general */
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .row:nth-child(odd) {
+            background-color: #333; /* Color de fondo oscuro para filas impares */
+        }
+
+        .row:nth-child(even) {
+            background-color: #666; /* Color de fondo oscuro para filas pares */
+        }
+
+        .row .text {
+            max-width: 40%;
+            color: #fff; /* Color de texto blanco */
+        }
+
+        .row:nth-child(even) .text {
+            margin-left: auto;
+            margin-right: 0;
+            text-align: right;
+        }
+
+    .image-container {
+        max-width: 50%; /* Ajusta el tamaño máximo del contenedor de imagen */
+    }
+
+        .image-container img {
+            width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+            height: 70%;
+            border-radius: 10px;
+        }
+
+</style>

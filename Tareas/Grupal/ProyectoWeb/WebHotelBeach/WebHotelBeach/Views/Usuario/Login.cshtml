@@ -1,0 +1,53 @@
+﻿@model WebHotelBeach.Models.Usuario
+
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <form asp-action="Login" asp-controller="Usuario" id="Formulario">
+                    <h1 class="text-center">Login</h1>
+                    @if (TempData["Mensaje"] != null)
+                    {
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>Error!</strong> @TempData["Mensaje"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <input asp-for="Email" class="form-control" placeholder="jorge@AppDomain.com" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                        No tienes una cuenta?
+                        <a asp-controller="Cliente" asp-action="Create">Cree una...</a>
+                    </div>
+                    <div class="form-check-group">
+                        <div class="col-auto">
+                            <input type="submit" value="Aceptar" class="btn btn-primary" />
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+
+
+</body>
