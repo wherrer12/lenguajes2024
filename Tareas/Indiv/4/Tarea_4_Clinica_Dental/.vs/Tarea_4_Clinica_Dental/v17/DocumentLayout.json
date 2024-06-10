@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Tareas\\Indiv\\4\\Tarea_4_Clinica_Dental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\tareas\\indiv\\4\\tarea_4_clinica_dental\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|solutionrelative:views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\tareas\\indiv\\4\\tarea_4_clinica_dental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\tareas\\indiv\\4\\tarea_4_clinica_dental\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|solutionrelative:views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D59ADDF7-B616-4C1D-ABDF-DA42E64456CB}|Tarea_4_Clinica_Dental.csproj|d:\\sky\\dropbox\\portafolio\\code\\.net\\ucr\\2024\\lenguajesg1\\wherrer12\\lenguajes2024\\tareas\\indiv\\4\\tarea_4_clinica_dental\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Models\\Paciente.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAA5wBcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T17:05:36.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T17:05:36.853Z"
             },
             {
               "$type": "Document",
@@ -91,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Tareas\\Indiv\\4\\Tarea_4_Clinica_Dental\\Views\\Pacientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Pacientes\\Edit.cshtml",
@@ -104,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Sky\\Dropbox\\Portafolio\\Code\\.NET\\UCR\\2024\\LenguajesG1\\wherrer12\\lenguajes2024\\Tareas\\Indiv\\4\\Tarea_4_Clinica_Dental\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -125,8 +124,7 @@
               "RelativeToolTip": "Controllers\\PacientesController.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAuwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:34:03.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:34:03.174Z"
             }
           ]
         }
