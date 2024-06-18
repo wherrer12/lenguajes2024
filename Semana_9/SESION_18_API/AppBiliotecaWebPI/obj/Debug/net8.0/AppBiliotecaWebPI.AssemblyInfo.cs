@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppBiliotecaWebPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a69dbaf2905beb115ae457a5fbe6e98af6876e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a0584f57967dde6b3970f3d5131e8ebfb9256ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppBiliotecaWebPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppBiliotecaWebPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
